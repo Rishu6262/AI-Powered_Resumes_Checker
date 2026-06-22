@@ -16,12 +16,13 @@ st.markdown("NLP + Machine Learning + Deep Learning Based ATS Resume Screening")
 # Load jobs
 
 try:
-jobs_response = requests.get(f"{API_URL}/jobs")
-jobs = jobs_response.json()["jobs"]
-job_roles = [job["job_role"] for job in jobs]
-except:
-st.error("FastAPI backend is not running.")
-st.stop()
+    jobs_response = requests.get(f"{API_URL}/jobs")
+    jobs = jobs_response.json()["jobs"]
+    job_roles = [job["job_role"] for job in jobs]
+
+except Exception:
+    st.error("FastAPI backend is not running.")
+    st.stop()
 
 col1, col2 = st.columns([2,1])
 
