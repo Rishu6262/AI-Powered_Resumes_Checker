@@ -27,16 +27,16 @@ except Exception:
 col1, col2 = st.columns([2,1])
 
 with col1:
-resume_text = st.text_area(
-"Paste Resume",
-height=350
-)
+    resume_text = st.text_area(
+        "Paste Resume",
+        height=350
+    )
 
 with col2:
-selected_role = st.selectbox(
-"Select Job Role",
-job_roles
-)
+    selected_role = st.selectbox(
+        "Select Job Role",
+        job_roles
+    )
 
 ```
 analyze_btn = st.button(
