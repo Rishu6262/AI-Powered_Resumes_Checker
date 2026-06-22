@@ -1,0 +1,58 @@
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+}
+
+h1{
+    text-align:center;
+    color:#38bdf8;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:15px;
+}
+
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    margin-bottom:15px;
+    border-radius:10px;
+    border:none;
+}
+
+textarea{
+    height:250px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    background:#38bdf8;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+button:hover{
+    background:#0284c7;
+}
+
+.result-box{
+    margin-top:25px;
+    background:#1e293b;
+    padding:20px;
+    border-radius:15px;
+}
