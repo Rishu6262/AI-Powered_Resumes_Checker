@@ -173,11 +173,17 @@ def get_jobs():
     """Return available job roles"""
     return {"jobs": JOB_INFO}
 
+# @app.post("/analyze")
+# async def analyze_resume(
+#     resume_text: str = Form(...),
+#     job_role: str = Form(...),
+# ):
 @app.post("/analyze")
 async def analyze_resume(
-    resume_text: str = Form(...),
     job_role: str = Form(...),
-):
+    resume_text: str = Form(None),
+    resume_file: UploadFile = File(None)
+):   
     """Main endpoint: analyze resume against job role"""
     
     # Find job info
