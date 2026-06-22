@@ -8,7 +8,8 @@ page_icon="📄",
 layout="wide"
 )
 
-API_URL = "http://127.0.0.1:8765"
+# API_URL = "http://127.0.0.1:8765"
+API_URL = "https://ai-powered-resumes-checker-1.onrender.com"
 
 st.title("🤖 AI Resume Analyzer")
 st.markdown("NLP + Machine Learning + Deep Learning Based ATS Resume Screening")
