@@ -38,19 +38,17 @@ with col2:
     job_roles
     )
 
-```
+
 analyze_btn = st.button(
     "🚀 Analyze Resume",
     use_container_width=True
 )
-```
+
 
 if analyze_btn:
-
-```
-if resume_text.strip() == "":
-    st.warning("Please paste resume text")
-    st.stop()
+    if resume_text.strip() == "":
+        st.warning("Please paste resume text")
+        st.stop()
 
 payload = {
     "resume_text": resume_text,
@@ -140,4 +138,4 @@ st.subheader("💡 Recommendations")
 
 for rec in result["recommendations"]:
     st.info(rec)
-```
+
