@@ -290,56 +290,6 @@ This interface is useful for demonstrations, quick testing, and data visualizati
 
 ---
 
-# ▶️ Installation
-
-Clone Repository
-
-```bash
-git clone https://github.com/your-username/AI-Powered_Resume_Analyzer.git
-```
-
-Move to Project Directory
-
-```bash
-cd AI-Powered_Resume_Analyzer
-```
-
-Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# ▶️ Run Backend
-
-```bash
-python -m uvicorn app:app --host 0.0.0.0 --port 8765
-```
-
-Open:
-
-```text
-http://localhost:8765/docs
-```
-
----
-
-# ▶️ Run Frontend
-
-```bash
-streamlit run streamlitAPP.py
-```
-
-Open:
-
-```text
-http://localhost:8501
-```
-
----
-
 # 📷 Screenshots
 
 Add screenshots of:
