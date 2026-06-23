@@ -1,22 +1,36 @@
 # 🤖 AI-Powered Resume Analyzer
 
-An advanced ATS (Applicant Tracking System) Resume Screening and Analysis Platform built using **NLP, Machine Learning, Deep Learning, FastAPI, and Streamlit**.
+An advanced AI-powered ATS (Applicant Tracking System) Resume Screening and Analysis Platform designed to automate the candidate evaluation process using Natural Language Processing (NLP), Machine Learning (ML), and Deep Learning (DL).
 
-The system analyzes resumes against job requirements, predicts shortlisting probability, identifies skill gaps, and provides personalized recommendations to improve resume quality.
+The system intelligently analyzes resumes by extracting technical skills, identifying educational qualifications, estimating professional experience, and comparing candidate profiles against job-specific requirements. Using a hybrid ensemble of Random Forest, XGBoost, and Multi-Layer Perceptron (MLP) models, it predicts the likelihood of a candidate being shortlisted for a particular role.
+
+The platform goes beyond traditional resume screening by providing detailed skill-gap analysis, resume-job similarity scoring, ATS compatibility insights, and personalized recommendations to help candidates improve their resumes. It combines NLP-based feature extraction with advanced predictive modeling to simulate real-world recruitment workflows used by modern organizations.
+
+The project features a FastAPI-powered backend, a custom HTML/CSS/JavaScript web interface, and an interactive Streamlit dashboard, delivering both recruiter-friendly analytics and candidate-focused feedback. The solution is fully deployed on cloud infrastructure and demonstrates the practical application of AI in recruitment automation, talent assessment, and resume optimization.
 
 ---
 
 # 🚀 Live Demo
 
-Frontend: Add Your Streamlit URL Here
+### Frontend (Streamlit)
 
-Backend API: Add Your Render URL Here
+https://ai-poweredresumescheckerp19.streamlit.app/
 
-API Docs:
+### Backend API (Render)
 
-```text
-https://your-render-url.onrender.com/docs
-```
+https://ai-powered-resumes-checker-1.onrender.com/
+
+### FastAPI Swagger Documentation
+
+https://ai-powered-resumes-checker-1.onrender.com/docs
+
+### Render Documentation
+
+https://ai-powered-resumes-checker-1.onrender.com/redoc
+
+
+
+
 
 ---
 
