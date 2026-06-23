@@ -220,7 +220,48 @@ Final Prediction =
 (XGBoost × 0.45)
 +
 (MLP × 0.20)
+
 ```
+
+🏗️ Application Architecture
+
+This project provides two different user interfaces connected to the same AI Resume Analysis engine.
+
+1️⃣ FastAPI + HTML/CSS/JavaScript UI
+
+The primary application is built using FastAPI and serves a custom frontend created with:
+
+HTML
+CSS
+JavaScript
+Backend File
+app.py
+Features
+Job Role Selection
+Resume Text Input
+Resume Analysis
+ATS Prediction
+Skill Gap Detection
+Recommendations Generation
+
+The frontend communicates with FastAPI APIs and displays results dynamically.
+
+---
+
+2️⃣ Streamlit Dashboard
+
+An alternative interface is also developed using Streamlit.
+
+Frontend File
+streamlitAPP.py
+Features
+Interactive Dashboard
+Model Prediction Visualization
+Resume Analysis Summary
+NLP Insights
+Skill Match Metrics
+
+This interface is useful for demonstrations, quick testing, and data visualization.
 
 ---
 
