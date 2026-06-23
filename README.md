@@ -354,6 +354,107 @@ Automatic Resume Text Extraction
 Drag-and-Drop File Upload Feature
 
 This will improve user experience and allow direct resume analysis without manual copy-pasting.
+
+---
+
+2. Enhanced User Interface
+
+The project currently provides two interfaces:
+
+FastAPI Web Interface
+
+Built using:
+
+HTML
+CSS
+JavaScript
+Streamlit Dashboard
+
+Built using:
+
+Streamlit
+
+Future UI enhancements:
+
+Modern Dashboard Design
+Better Visualizations
+ATS Score Meter
+Interactive Charts
+Mobile Responsive Layout
+Improved User Experience (UX)
+
+---
+
+3. Detailed Resume Analysis
+
+Currently, the system provides:
+
+Shortlisting Prediction
+Skill Match Score
+Missing Skills
+Recommendations
+
+Future versions will provide detailed section-wise analysis:
+
+Skills Evaluation
+Education Analysis
+Project Assessment
+Experience Review
+Certification Analysis
+ATS Compatibility Score
+
+The system will explain why a resume was shortlisted or rejected and provide personalized suggestions for improvement.
+
+---
+
+4. AI-Powered Resume Feedback
+
+Future integration of Generative AI and LLMs will provide:
+
+Detailed Resume Reviews
+Resume Rewriting Suggestions
+ATS Optimization Tips
+Career Guidance
+Interview Preparation Recommendations
+
+---
+
+5. Resume Ranking System
+
+The platform will support comparison of multiple resumes and rank candidates based on:
+
+Skill Match
+Experience Match
+ATS Score
+Overall Job Suitability
+
+---
+
+6. Database Integration
+
+Planned database support:
+
+PostgreSQL
+MongoDB
+
+Features:
+
+Resume History
+User Profiles
+Analysis Tracking
+Analytics Dashboard
+7. Authentication and User Management
+
+---
+
+Future user features:
+
+User Registration
+Login System
+Resume Storage
+Personalized Dashboard
+Previous Analysis History
+
 ---
 
 # 👨‍💻 Author
