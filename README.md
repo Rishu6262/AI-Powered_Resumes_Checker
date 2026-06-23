@@ -338,17 +338,22 @@ Add screenshots of:
 
 ---
 
-# 🌟 Future Enhancements
+🔮 Future Improvements
 
-* PDF Resume Upload
-* Resume Parsing using PyMuPDF
-* ATS Score Meter
-* Download PDF Reports
-* OpenAI-powered Resume Suggestions
-* Authentication System
-* Database Integration
-* Resume Ranking System
+This project is currently functional and deployed, but several enhancements are planned to make it more powerful and industry-ready.
 
+1. Resume File Upload Support
+
+Currently, the system accepts resume input only in text format.
+
+Planned enhancements:
+
+PDF Resume Upload
+DOC/DOCX Resume Upload
+Automatic Resume Text Extraction
+Drag-and-Drop File Upload Feature
+
+This will improve user experience and allow direct resume analysis without manual copy-pasting.
 ---
 
 # 👨‍💻 Author
