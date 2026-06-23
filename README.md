@@ -1,1 +1,331 @@
-# AI-Powered_Resumes_Checker
+# 🤖 AI-Powered Resume Analyzer
+
+An advanced ATS (Applicant Tracking System) Resume Screening and Analysis Platform built using **NLP, Machine Learning, Deep Learning, FastAPI, and Streamlit**.
+
+The system analyzes resumes against job requirements, predicts shortlisting probability, identifies skill gaps, and provides personalized recommendations to improve resume quality.
+
+---
+
+# 🚀 Live Demo
+
+Frontend: Add Your Streamlit URL Here
+
+Backend API: Add Your Render URL Here
+
+API Docs:
+
+```text
+https://your-render-url.onrender.com/docs
+```
+
+---
+
+# 📌 Project Overview
+
+The AI-Powered Resume Analyzer helps candidates evaluate their resumes against specific job roles.
+
+The application uses:
+
+* NLP for skill extraction
+* Machine Learning for classification
+* Deep Learning for prediction enhancement
+* FastAPI for backend APIs
+* Streamlit for interactive UI
+* Render for cloud deployment
+
+The system simulates a real-world ATS screening process used by recruiters.
+
+---
+
+# 🎯 Key Features
+
+### Resume Analysis
+
+* Analyze resume text against job roles
+* ATS-style screening
+* Resume-job matching
+
+### NLP Features
+
+* Technical skill extraction
+* Experience detection
+* Education detection
+* Keyword density analysis
+* Similarity score calculation
+
+### Machine Learning Models
+
+* Random Forest Classifier
+* XGBoost Classifier
+
+### Deep Learning Model
+
+* Multi-Layer Perceptron (MLP)
+
+### Ensemble Prediction
+
+Weighted prediction using:
+
+```text
+Random Forest → 35%
+XGBoost → 45%
+MLP Neural Network → 20%
+```
+
+### Recommendations Engine
+
+Provides:
+
+* Missing skills
+* Experience gap analysis
+* Resume optimization suggestions
+* ATS improvement recommendations
+
+---
+
+# 🧠 Technologies Used
+
+## Programming Language
+
+* Python
+
+## Frontend
+
+* Streamlit
+* HTML
+* CSS
+* JavaScript
+
+## Backend
+
+* FastAPI
+* Uvicorn
+
+## Machine Learning
+
+* Scikit-Learn
+* XGBoost
+
+## NLP
+
+* TF-IDF Vectorizer
+* Regex-based Skill Extraction
+
+## Data Processing
+
+* NumPy
+* Pandas
+
+## Deployment
+
+* GitHub
+* Render
+
+---
+
+# 📂 Project Structure
+
+```text
+AI-Powered_Resume_Analyzer/
+│
+├── app.py
+├── streamlitAPP.py
+├── model_bundle.pkl
+├── job_info.json
+├── requirements.txt
+├── runtime.txt
+│
+├── static/
+│   ├── style.css
+│   └── script.js
+│
+├── templates/
+│   └── index.html
+│
+└── README.md
+```
+
+---
+
+# ⚙️ Workflow
+
+```text
+Resume Input
+      │
+      ▼
+NLP Skill Extraction
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+TF-IDF Transformation
+      │
+      ▼
+ML Models (RF + XGB)
+      │
+      ▼
+Deep Learning Model (MLP)
+      │
+      ▼
+Ensemble Prediction
+      │
+      ▼
+Resume Analysis Report
+```
+
+---
+
+# 📊 Output Generated
+
+The application returns:
+
+* Shortlisted / Rejected Prediction
+* Confidence Score
+* Skill Match Percentage
+* Similarity Score
+* Extracted Skills
+* Missing Skills
+* Experience Analysis
+* Personalized Recommendations
+
+---
+
+# 🔥 Machine Learning Pipeline
+
+### Feature Engineering
+
+Generated Features:
+
+* Skill Match Score
+* Experience Match
+* Education Match
+* Similarity Score
+* Experience Gap
+* NLP Skill Features
+
+### NLP Processing
+
+* TF-IDF Vectorization
+* Skill Detection
+* Experience Extraction
+* Education Classification
+
+### Model Ensemble
+
+```python
+Final Prediction =
+(RandomForest × 0.35)
++
+(XGBoost × 0.45)
++
+(MLP × 0.20)
+```
+
+---
+
+# 📈 Business Use Cases
+
+* Resume Screening
+* Recruitment Automation
+* ATS Optimization
+* HR Analytics
+* Candidate Evaluation
+* Skill Gap Identification
+
+---
+
+# ▶️ Installation
+
+Clone Repository
+
+```bash
+git clone https://github.com/your-username/AI-Powered_Resume_Analyzer.git
+```
+
+Move to Project Directory
+
+```bash
+cd AI-Powered_Resume_Analyzer
+```
+
+Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶️ Run Backend
+
+```bash
+python -m uvicorn app:app --host 0.0.0.0 --port 8765
+```
+
+Open:
+
+```text
+http://localhost:8765/docs
+```
+
+---
+
+# ▶️ Run Frontend
+
+```bash
+streamlit run streamlitAPP.py
+```
+
+Open:
+
+```text
+http://localhost:8501
+```
+
+---
+
+# 📷 Screenshots
+
+Add screenshots of:
+
+* Home Page
+* Resume Analysis Page
+* Prediction Dashboard
+* API Documentation
+* Deployment Dashboard
+
+---
+
+# 🌟 Future Enhancements
+
+* PDF Resume Upload
+* Resume Parsing using PyMuPDF
+* ATS Score Meter
+* Download PDF Reports
+* OpenAI-powered Resume Suggestions
+* Authentication System
+* Database Integration
+* Resume Ranking System
+
+---
+
+# 👨‍💻 Author
+
+**Rishu Gurjar**
+
+B.Tech Computer Science Student
+
+Interested in:
+
+* Python Development
+* Data Science
+* Machine Learning
+* Deep Learning
+* Artificial Intelligence
+
+---
+
+# ⭐ If you like this project
+
+Give this repository a star and support the project.
